@@ -13,6 +13,7 @@ public class MessageController {
     @GetMapping("/message")
     public ResponseEntity<String> displayMessage(){
         log.info("Demo to push and pull images to docker hub using GitHub and Jenkins...");
+        log.info("Test1: Demo to push and pull images to docker hub using GitHub and Jenkins...");
         return ResponseEntity.ok("Demo to push and pull images to docker hub using GitHub and Jenkins...");
     }
 }
